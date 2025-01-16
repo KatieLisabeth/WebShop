@@ -12,11 +12,13 @@ namespace WebShop.Controllers
 
         public IActionResult Registreer()
         {
+            ViewData["Title"] = "Registreer";
             return View();
         }
 
         public IActionResult WinkelMandje()
         {
+            ViewData["Title"] = "Uw WinkelMandje is here";
             return View();
         }
     }
